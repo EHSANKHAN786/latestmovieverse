@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        /* background-color: #f0f0f0; */
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+
+      .card {
+        width: 300px;
+        /* background-color: #fff; */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .card-content {
+        padding: 20px;
+      }
+
+      .card-title {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+
+      .card-description {
+        font-size: 1rem;
+        color: #666;
+      }
+      .btn {
+        background-color: #4dbf00;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        font-weight: bold;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container"><h1 class="logo"><a href="index.html" style="color: #4dbf00;">Movies</a></h1></div>
+
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">
+              <a href="index.html" style="color: #4dbf00">Home</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="movies.html" style="color: #4dbf00">Movie</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="series.html" style="color: #4dbf00">Series</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="anime.html" style="color: #4dbf00">Anime</a>
+            </li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img class="profile-picture" src="img/profile.avif" alt="" />
+          <div class="profile-text-container">
+            <span class="profile-text">Profile</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-regular fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <img src="img/a-1.png" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">TIGER APPRENTICE</h2>
+          <p class="card-description">
+            The Tiger's Apprentice is a 2024 American animated fantasy film
+            based on the 2003 novel of the same name by Laurence Yep. Produced
+            by Paramount Animation
+          </p>
+          <button class="btn">
+            <a
+              href=" https://youtu.be/VgTc9zMQee8?si=zAMEoi-KR-PSeIK6"
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/a-2.webp" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">CHAINSAW</h2>
+          <p class="card-description">
+            A chainsaw (or chain saw) is a saw that cuts with a set of teeth
+            attached to a rotating chain driven along a guide bar. Modern
+            chainsaws
+          </p>
+          <button class="btn">
+            <a
+              href=" https://youtu.be/FaHY74-6UYs?si=XT3FNUKO9YBtcKip"
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/a-3.webp" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">BLUELOCK</h2>
+          <p class="card-description">
+            Blue Lock (Japanese: ブルーロック, Hepburn: Burū Rokku) (stylized as
+            BLUELOCK) is a Japanese manga series written by Muneyuki Kaneshiro
+            and illustrated
+          </p>
+          <button class="btn">
+            <a
+              href=" https://youtu.be/u-AMYSINGdQ?si=hoEaFThIPtAYBbu7"
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-4.avif" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">Ichigo Kurosaki</h2>
+          <p class="card-description">
+            Ichigo is one of the students attending Karakura High School and
+            having the ability to see ghosts. He meets a Soul Reaper named Rukia
+            Kuchiki from a secret .
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/kY8EGR4so_s?si=q5Ihod01dNo7u4np "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-5.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">THE GIRL FROM OTHER SIDE</h2>
+          <p class="card-description">
+            The Girl from the Other Side: Siúil, a Rún was written and
+            illustrated by Nagabe. It was serialized in Mag Garden's shōnen
+            manga magazine Monthly Comic Garden,
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/HPQin-uuI9o?si=MyIRrUukH9ha_Ouj "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-6.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">CYBERPUNK</h2>
+          <p class="card-description">
+            Cyberpunk is a subgenre of science fiction in a dystopian futuristic
+            setting that tends to focus on a "combination of lowlife and high
+            tech",
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/8X2kIfS6fb8?si=r6gv_GtOtHn9Z8nL "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/a-7.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">DEMON SLAYER</h2>
+          <p class="card-description">
+            Blade of Demon Destruction is a Japanese manga series written and
+            illustrated by Koyoharu Gotouge. It was serialized in Shueisha's
+            shōnen manga magazine .
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/SXcCdQdcBtw?si=8WWjFHQtsZytHCYU "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-8.avif" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">AATTACK ON TITAN</h2>
+          <p class="card-description">
+            Attack on Titan is a Japanese dark fantasy anime television series,
+            adapted from the manga series of the same name by Hajime Isayama.
+            The series premiered
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/LV-nazLVmgo?si=DJXKUD7itJtiSBmc "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-9.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">ONE PIECE</h2>
+          <p class="card-description">
+            One Piece (stylized in all caps) is a Japanese manga series written
+            and illustrated by Eiichiro Oda. It has been serialized in
+            Shueisha's shōnen manga
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/aLB_2HGC7CI?si=1gHflgFWwW-XVhqg "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-10.webp" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">JUJUTSU KAISEN</h2>
+          <p class="card-description">
+            Jujutsu Kaisen is a Japanese manga series written and illustrated by
+            Gege Akutami. It has been serialized in Shueisha's shōnen manga
+            magazine Weekly Shōnen .
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/Pm-wNmS9RGI?si=E_USw6ZXN7yVmy0B "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-11.webp" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">MASHLE: MAGIC AND MUSCLES</h2>
+          <p class="card-description">
+            Mashle: Magic and Muscles is a Japanese manga series written and
+            illustrated by Hajime Kōmoto. It was serialized in Shueisha's shōnen
+            manga magazine Weekly .
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/_ce5_P1Hj5A?si=ngLrayDwJCCCGF2i "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-12.jpe" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">
+            THE REINCARNATION OF STRONGEST EXORSICT WORLD
+          </h2>
+          <p class="card-description">
+            Powerful exorcist Haruyoshi Kugano is betrayed and fatally wounded
+            by his student. Using a reincarnation spell to be reborn, Haruyoshi
+            vows to become unbeatable .
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/TGEOMXmcra0?si=bOK-TG_YJOXpq3sB "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-13.avif" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">ONE PUNCH</h2>
+          <p class="card-description">
+            One-Punch Man is a Japanese superhero manga series created by One.
+            It tells the story of Saitama, a superhero who, because he can
+            defeat any opponent
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/Poo5lqoWSGw?si=nCbZZ-hyjiGZ92Fv "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-14.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">NARUTO</h2>
+          <p class="card-description">
+            Naruto is a Japanese manga series written and illustrated by Masashi
+            Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who
+            seeks recognition .
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/22R0j8UKRzY?si=z-7TlBBgpjaWgPp1 "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-15.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">TOKYO REVENGERS</h2>
+          <p class="card-description">
+            Naruto is a Japanese manga series written and illustrated by Masashi
+            Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who
+            seeks recognition .
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/LVpiqOh-524?si=vDFCWCCaATypnIyV "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-16.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">LOOKISM</h2>
+          <p class="card-description">
+            Lookism is a South Korean webtoon written and illustrated by Taejun
+            Pak. The webtoon was first published weekly on Naver Webtoon in
+            November 2014.
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/LPgBQSya5rU?si=gwtVRWsln1plow2D "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-17.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">DEATH NOTE</h2>
+          <p class="card-description">
+            The story follows Light Yagami, a genius high school student who
+            discovers a mysterious notebook: the "Death Note", which belonged to
+            the shinigami Ryuk,
+          </p>
+          <button class="btn">
+            <a
+              href=" https://youtu.be/NlJZ-YgAt-c?si=vF-sAFwPyV__j64e"
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/a-18.avif" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">DRAGON BALL Z</h2>
+          <p class="card-description">
+            Dragon Ball Z is a Japanese anime television series produced by Toei
+            Animation. Part of the Dragon Ball media franchise, it is the sequel
+            to the 1986 Dragon .
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/Kl0qVHrLRVE?si=JtIT9i-A2C0h-Ap6 "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

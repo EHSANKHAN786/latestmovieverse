@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        /* background-color: #f0f0f0; */
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+
+      .card {
+        width: 300px;
+        /* background-color: #fff; */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .card-content {
+        padding: 20px;
+      }
+
+      .card-title {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+
+      .card-description {
+        font-size: 1rem;
+        color: #666;
+      }
+      .btn {
+        background-color: #4dbf00;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        font-weight: bold;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container"><h1 class="logo"><a href="index.html" style="color: #4dbf00;">Movies</a></h1></div>
+
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">
+              <a href="index.html" style="color: #4dbf00">Home</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="movies.html" style="color: #4dbf00">Movie</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="series.html" style="color: #4dbf00">Series</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="anime.html" style="color: #4dbf00">Anime</a>
+            </li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img class="profile-picture" src="img/profile.avif" alt="" />
+          <div class="profile-text-container">
+            <span class="profile-text">Profile</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-regular fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <img src="img/1.avif" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">SAINDHAV</h2>
+          <p class="card-description">
+            Saindhav is a 2024 Indian Telugu-language action thriller film
+            written and directed by Sailesh Kolanu and produced by Venkat
+            Boyanapalli.
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/z2POY4PBR9s?si=XOQrDGBYBPzzbvV0 "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/2.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">THE PIPER</h2>
+          <p class="card-description">
+            When a composer is tasked with finishing her late mentor's concerto,
+            she soon discovers that playing the music summons deadly
+            consequences.
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/0zyjL48SnuY?si=2eFkRQ1MCVlAgsbw "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/3.webp" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">BALAND HUNTERS</h2>
+          <p class="card-description">
+            Badland Hunters (Korean: 황야) is a 2024 South Korean dystopian
+            action film directed by Heo Myung-haeng, in his directorial debut.
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/hKbo-ZKdSqw?si=EY03IPcaip36OE42"
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/4.webp" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">AQUAMAN 2</h2>
+          <p class="card-description">
+            Aquaman and the Lost Kingdom is a 2023 American superhero film based
+            on the DC character Aquaman. Produced by DC Studios,
+          </p>
+          <button class="btn">
+            <a
+              href=" https://youtu.be/UGc5Tzz19UY?si=vH36h6tuOeF6QIdu"
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/5.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">12TH FAIL</h2>
+          <p class="card-description">
+            It is based on the 2019 eponymous non-fiction book by Anurag Pathak
+            about Manoj Kumar Sharma,
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/WeMJo701mvQ?si=koDKxaMPFCFTHqHy "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/6.webp" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">JAILER</h2>
+          <p class="card-description">
+            Jailer is a 2023 Indian Tamil-language action comedy film directed
+            by Nelson Dilipkumar and produced by Kalanithi Maran of Sun
+            Pictures.
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/xenOE1Tma0A?si=KuIQvnYVw4j3oTvl "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/9.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">I.S.S.</h2>
+          <p class="card-description">
+            The International Space Station (ISS) is a large space station
+            assembled and maintained in low Earth orbit by a collaboration of
+            five space agencies: NASA
+          </p>
+          <button class="btn">
+            <a
+              href=" https://youtu.be/i48f4AvS-Pk?si=67hAB9cKbGILmKGS"
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/7.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">THE MARVELS</h2>
+          <p class="card-description">
+            The Marvels is a 2023 American superhero film based on Marvel
+            Comics. Produced by Marvel Studios and distributed by Walt Disney
+            Studios Motion Pictures
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/wS_qbDztgVY?si=s7GsmVAxY_3UByjT "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src=" img/8.avif " alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">NIGHT SWIM</h2>
+          <p class="card-description">
+            The film stars Wyatt Russell and Kerry Condon. Its plot follows a
+            suburban family who discover that their backyard swimming pool is
+            haunted. Night
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/pcSNqteCEtE?si=jKjmpaygLoeZvZUc "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/10.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">CULT KILLER</h2>
+          <p class="card-description">
+            Cult Killer is a 2024 American horror thriller film, directed by Jon
+            Keeyes and written by Charles Burnley starring Alice Eve and Antonio
+            Banderas.
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/w6K1E-wCWgU?si=XsrZj7Wugn8_6dg9"
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/12.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">CALAMITY JANE</h2>
+          <p class="card-description">
+            Martha Jane Canary (May 1, 1852 – August 1, 1903), better known as
+            Calamity Jane, was an American frontierswoman, sharpshooter, and
+            storyteller
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/EkgxFflhcRQ?si=QzTFjZZpX9Yxi_gO "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/m-1.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">JORAM</h2>
+          <p class="card-description">
+            Joram is a 2023 Indian Hindi-language thriller film written and
+            directed by Devashish Makhija and produced by Zee Studios with
+            Makhijafilm.
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/KBx9ouT4Lq4?si=me1ekdNlqEz-ISN- "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/m-2.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">ANIMAL</h2>
+          <p class="card-description">
+            Animal is a 2023 Indian Hindi-language action drama film directed,
+            edited and co-written by Sandeep Reddy Vanga. The film is produced
+            by Bhushan Kumar,
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/8FkLRUJj-o0?si=rxCKrzInI_AP0kwk "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/m-3.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">SAMBAHADUR</h2>
+          <p class="card-description">
+            Sam Bahadur is a 2023 Indian Hindi-language biographical war drama
+            film based on the life of India's first field marshal, Sam
+            Manekshaw.
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/tj7QdpcSD7c?si=UhD7Ol-5TMVA3Wvd "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/m-4.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">FIGHTER</h2>
+          <p class="card-description">
+            Fighter is a 2024 Indian Hindi-language action film directed by
+            Siddharth Anand, based on a story he wrote with Ramon Chibb.
+            Produced under Viacom18 Studios
+          </p>
+          <button class="btn">
+            <a
+              href="https://youtu.be/6amIq_mP4xM?si=8Zmq5sPfT7Gr634Y "
+              style="color: white"
+              >WATCH</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
